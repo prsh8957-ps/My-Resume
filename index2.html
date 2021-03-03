@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+   
+   
+   
+    <meta name="theme-color" content="#21695a">
+    <title>Priya Sharma </title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style-index.css">
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit" async defer></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+
+
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- 
+        Sticky Navigation bar 
+    -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0.8); height: 6%;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+                <script>
+                  $(document).click(function (event) {
+                    var clickover = $(event.target);
+                    var $navbar = $(".navbar-collapse");               
+                    var _opened = $navbar.hasClass("in");
+                    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+                        $navbar.collapse('hide');
+                    }
+                });
+                </script>
+            </button>
+            <a class="navbar-brand" href="#" style="color: white; font-size: 130%; letter-spacing: 0.4px;"><strong>Priya Sharma</strong></a>
+
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">About</a></li>
+                <li>Blog</li>
+                <li><a href="index.html">Skills</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </nav>    
+    
+    <!-- 
+        Main Content
+     -->
+    <main>
+        <!-- 
+            Main Header/Home
+         -->
+        <section id="header">
+            <header class="profile">
+                <img src="DSC_1032-crop.jpg" alt="Priya's Image" class="profile__image"> 
+                <h1 class="profile__name">Priya </h1>
+                <h1 class="profile__name">Sharma</h1>
+                <hr>
+                <p class="profile__profession"> <a class="typewrite" data-period="2000" data-type='["Web developer.", "Android developer.", "AI/ML geek.", "UI/UX Designer." ]'>
+                </a></p>
+                
+                <a href="#" class="profile__link">My Blogs</a>
+            </header>
+        </section>
+        <!-- 
+            WebSite Content
+         -->
+        <div class="content">
+
+
+            <!-- 
+                Blogs Section
+             -->
+            <section id="skills" class="paddingTop">
+                <h1 class="content__heading">My Blogs on Medium</h1>
+                <hr>
+                
+
+                <div class="flexParent">
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/a.jpg"></use>
+                        </svg>
+                        <figcaption>How does Internet fulfil our requests?</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/b.jpg"></use>
+                        </svg>
+                        <figcaption>Port Scanning with Nmap (Part 1)</figcaption>
+                    </figure>
+
+                    <figure class="flexParent__skill">
+                        <svg class="logo" viewBox="0 0 128 128">
+                            <use xlink:href="assets/images/c.jpg"></use>
+                        </svg>
+                        <figcaption>Port Scanning with Nmap (Part 2)</figcaption>
+                    </figure>
+
+                </div>
+
+                <hr>
+                
+        
+    <script src="assets/scripts/smooth-scroll.polyfills.min.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/solid.js" integrity="sha384-Z7p3uC4xXkxbK7/4keZjny0hTCWPXWfXl/mJ36+pW7ffAGnXzO7P+iCZ0mZv5Zt0"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/brands.js" integrity="sha384-ZqDZAkGUHrXxm3bvcTCmQWz4lt7QGLxzlqauKOyLwg8U0wYcYPDIIVTbZZXjbfsM"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/fontawesome.js" integrity="sha384-juNb2Ils/YfoXkciRFz//Bi34FN+KKL2AN4R/COdBOMD9/sV/UsxI6++NqifNitM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/scripts/script-index.js" onload="blink();"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="https://carrier.formcarry.com/js/v1.js"></script>
+ 
+
+</body>
+
+</html>
